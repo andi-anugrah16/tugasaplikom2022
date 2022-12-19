@@ -1,0 +1,318 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    height: 60px;
+    background-color: #e1e1e1;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    box-shadow: 0pt 0pt 5pt rgba(0, 0, 0, 0.7);
+    font-size: 16pt;
+    font-family: 'poetsen_oneregular';
+    z-index: 5;
+}
+.matkul {
+    color: #000;
+    padding: 10pt 0 0 10pt;
+    cursor: pointer;
+}
+.navigasi {
+    list-style: none;
+}
+.navigasi ul {
+    position: absolute;
+    top: 10pt;
+    right: 10pt;
+}
+.navigasi ul li {
+    display: inline-block;
+    padding: 0 5pt 0 5pt;
+}
+.navigasi ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.sampul {
+    width: 100%;
+    height: 447pt;
+    position: absolute;
+    top: 46pt;
+    background: url(/img/template.jpg) no-repeat center;
+    background-size: cover;
+    z-index: 2;
+}
+.JUDUL {
+    text-align: center;
+    margin-top: 170pt;
+    font-size: 30pt;
+    font-family: 'balooregular';
+    color: #e1e1e1;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* ------------------ */
+#profile .bg-profile {
+    height: 390pt;
+    margin-top: 40pt;
+    background-color: #dc0000;
+    display: flex;
+}
+#profile .foto {
+    width: 220pt;
+    margin: 25pt 0 0 10pt;
+    clip-path: circle(130px);
+    position: absolute;
+}
+#profile .name {
+    margin: 65pt 0 0 50pt;
+    font-family: 'calibri';
+    font-size: 40pt;
+    font-weight: bold;
+    position: absolute;
+    left: 230pt;
+    color: #e1e1e1;
+}
+#profile .jurusan {
+    font-size: 30pt;
+    color: #e1e1e1;
+}
+#profile .garis {
+    width: 350px;
+    height: 20px;
+    background-color: #e1e1e1;
+    margin: 5pt 0 0 0pt;
+    border-radius: 20px;
+}
+#profile .facebook {
+    width: 30pt;
+    background-color: #e1e1e1;
+    border-radius: 5pt;
+}
+#profile .instagram {
+    width: 30pt;
+    background: #e1e1e1;
+    border-radius: 10pt;
+}
+#profile .github {
+    width: 30pt;
+    background-color: #e1e1e1;
+    border-radius: 50pt;
+}
+/* ----------------- */
+.about {
+    height: 500pt;
+    background-color: #850000;
+    padding-top: 20pt;
+    text-align: center;
+    font-family: 'calibri';
+    font-weight: bold;
+    font-size: 30pt;
+    color: #e1e1e1;
+}
+.about .deskripsi-about {
+    width: 450pt;
+    border: 3px solid #e1e1e1;
+    border-radius: 10pt;
+    margin: 30pt auto;
+    padding: 10pt;
+    font-size: 20pt;
+    color: #e1e1e1;
+}
+.hobi {
+    text-align: center;
+}
+.judul-hobi {
+    font-family: 'calibri';
+    font-size: 25pt;
+    font-weight: bold;
+    padding-bottom: 20pt;
+}
+.ic-film {
+    margin-right: 100pt;
+}
+.film {
+    margin-right: 100pt;
+    background-color: #e1e1e1;
+}
+.deskripsi-film {
+    margin-right: 100pt;
+}
+.ic-musik {
+    margin-top: -112pt;
+    margin-left: 100pt;
+}
+.musik {
+    margin-top: 20pt;
+    margin-left: 100pt;
+    background-color: #e1e1e1;
+}
+.deskripsi-musik {
+    margin-left: 100pt;
+}
+/* ---------------- */
+.pendidikan {
+    height: 400pt;
+    background-color: #dc0000;
+}
+.judul-pendidikan {
+    text-align: center;
+    padding-top: 20pt;
+    padding-bottom: 20pt;
+    font-family: 'calibri';
+    font-weight: bold;
+    font-size: 30pt;
+    color: #e1e1e1;
+}
+.data-sekolah {
+    text-align: center;
+    font-family: 'calibri';
+    margin: auto;
+    font-size: 20pt;
+    font-weight: bold;
+    color: #e1e1e1;
+}
+/* --------------- */
+.skill {
+    height: 350pt;
+    background-color: #850000;
+}
+.judul-skill {
+    text-align: center;
+    font-family: 'calibri';
+    font-size: 30pt;
+    font-weight: bold;
+    padding-top: 20pt;
+    padding-bottom: 40pt;
+    color: #e1e1e1;
+}
+.web {
+    width: 180pt;
+    text-align: center;
+    font-family: 'calibri';
+    font-size: 20pt;
+    font-weight: bold;
+    border: 3px solid #e1e1e1;
+    background-color: #850000;
+    border-radius: 50pt;
+    padding: 10pt;
+    margin: auto;
+    position: relative;
+    right: 120pt;
+    color: #e1e1e1;
+}
+.network {
+    width: 180pt;
+    text-align: center;
+    font-family: 'calibri';
+    font-size: 20pt;
+    font-weight: bold;
+    border: 3px solid #e1e1e1;
+    background-color: #850000;
+    border-radius: 50pt;
+    padding: 10pt;
+    margin: -73pt auto;
+    position: relative;
+    left: 120pt;
+    color: #e1e1e1;
+}
+.design {
+    width: 180pt;
+    text-align: center;
+    font-family: 'calibri';
+    font-size: 20pt;
+    font-weight: bold;
+    border: 3px solid #e1e1e1;
+    background-color: #850000;
+    border-radius: 50pt;
+    padding: 10pt;
+    position: relative;
+    top: 100pt;
+    margin: 0 auto;
+    color: #e1e1e1;
+}
+.kemampuan {
+    font-weight: normal;
+}
+/* ---------------- */
+.bg-materi {
+    margin-top: 40pt;
+    background-color: #dc0000;
+    padding: 20pt;
+}
+.judul-materi1 {
+    text-align: center;
+    font-family: 'calibri';
+    font-size: 30pt;
+    font-weight: bold;
+    padding-bottom: 20pt;
+    color: #e1e1e1;
+}
+.materi1 {
+    font-family: 'calibri';
+    font-size: 20pt;
+    color: #e1e1e1;
+}
+.judul-materi2 {
+    text-align: center;
+    font-family: 'calibri';
+    font-size: 30pt;
+    font-weight: bold;
+    padding-bottom: 20pt;
+    color: #e1e1e1;
+}
+.materi2 {
+    font-family: 'calibri';
+    font-size: 20pt;
+    color: #e1e1e1;
+}
+.judul-materi3 {
+    text-align: center;
+    font-family: 'calibri';
+    font-size: 30pt;
+    font-weight: bold;
+    padding-bottom: 20pt;
+    color: #e1e1e1;
+}
+.materi3 {
+    font-family: 'calibri';
+    font-size: 20pt;
+    color: #e1e1e1;
+}
+.judul-materi4 {
+    text-align: center;
+    font-family: 'calibri';
+    font-size: 30pt;
+    font-weight: bold;
+    padding-bottom: 20pt;
+    color: #e1e1e1;
+}
+.materi4 {
+    font-family: 'calibri';
+    font-size: 20pt;
+    color: #e1e1e1;
+}
+.judul-materi5 {
+    text-align: center;
+    font-family: 'calibri';
+    font-size: 30pt;
+    font-weight: bold;
+    padding-bottom: 20pt;
+    color: #e1e1e1;
+}
+.materi5 {
+    font-family: 'calibri';
+    font-size: 20pt;
+    color: #e1e1e1;
+}
+.materi {
+    font-family: 'calibri';
+    font-size: 14pt;
+    text-align: justify;
+    padding-bottom: 30pt;
+    padding-top: 8pt;
+    color: #e1e1e1;
+}
